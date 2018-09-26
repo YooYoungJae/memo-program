@@ -1,12 +1,12 @@
 <template>
-  <div>
-    개발자 정보
-  </div>
+<div>
+  누가쏠까
+</div>
 </template>
 
 <script>
     export default {
-        name: "MyInfo"
+        name: "WhoPay"
     }
 </script>
 

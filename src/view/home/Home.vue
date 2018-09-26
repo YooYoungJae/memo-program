@@ -28,5 +28,10 @@
 <style scoped>
 .mainView{
   min-height: 700px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+
 }
 </style>

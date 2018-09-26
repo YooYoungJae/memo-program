@@ -2,11 +2,12 @@
     <div >
       <div class="header-wrapper">
         <v-layout align-center row fill-height>
-          <div class="logo" @click="goMyMemo">My Memo</div>
-          <h4 class="ml-3 color-white cp" @click="goIdeaBox">Idea Box</h4>
-          <h4 class="ml-3 color-white cp" @click="goMyInfo">My Info</h4>
+          <img src="../../assets/logo.png" class="logo">
+          <h4 class="ml-3 color-white cp" @click="goSelectFoods">뭐먹지?</h4>
+          <h4 class="ml-3 color-white cp" @click="goWhoPay">누가 쏠까!</h4>
+          <h4 class="ml-3 color-white cp" @click="goMyInfo">개발자 정보</h4>
           <v-spacer></v-spacer>
-          <h4 class="color-white cp mr-3">언어변경</h4>
+          <h4 class="color-white cp mr-3" @click="showDevelopAlert">언어변경</h4>
         </v-layout>
       </div>
       <div class="dummy-header">
@@ -19,14 +20,17 @@
     export default {
       name: "Header",
       methods:{
-        goMyMemo(){
-          this.$route.push("/")
+        goSelectFoods(){
+          this.$router.push("/selectFoods")
         },
-        goIdeaBox(){
-          this.$route.push("/IdeaBox")
+        goWhoPay(){
+          this.$router.push("/whoPay")
         },
         goMyInfo(){
-          this.$route.push("/MyInfo")
+          this.$router.push("/MyInfo")
+        },
+        showDevelopAlert(){
+          alert("준비중입니다");
         }
       }
     }
@@ -43,8 +47,7 @@
   height: 60px;
 }
   .logo{
-    color: white;
-    font-size: 20px;
+    width: 80px;
     margin-left: 20px;
     cursor: pointer;
   }
