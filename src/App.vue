@@ -193,6 +193,10 @@ h4{
   font-size: 18px;
   font-weight: 400;
 }
+h4a{
+  font-size: 16px;
+  font-weight: 400;
+}
 h5{
   font-size: 14px;
   font-weight: 400;
@@ -206,6 +210,35 @@ h6{
   .cp{
     cursor: pointer
   }
-
+  .bold{
+    font-weight: 700;
+  }
+  .medium{
+    font-weight: 500;
+  }
+  .t-left{
+    text-align: left;
+  }
+  .t-center{
+    text-align: center;
+  }
+  .t-right{
+    text-align: right;
+  }
+  .color-lightblue{
+    color: lightskyblue;
+  }
+  .color-purple{
+    color: purple;
+  }
+  .d-flex{
+    display: flex;
+  }
+  .d-inlineblock{
+    display: inline-block;
+  }
+.d-inlineflex{
+  display: inline-flex;
+}
 
 </style>

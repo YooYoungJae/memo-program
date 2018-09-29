@@ -2,7 +2,7 @@
     <div >
       <div class="header-wrapper">
         <v-layout align-center row fill-height>
-          <img src="../../assets/logo.png" class="logo">
+          <img src="../../assets/logo.png" class="logo" @click="goMain">
           <h4 class="ml-3 color-white cp" @click="goSelectFoods">뭐먹지?</h4>
           <h4 class="ml-3 color-white cp" @click="goWhoPay">누가 쏠까!</h4>
           <h4 class="ml-3 color-white cp" @click="goMyInfo">개발자 정보</h4>
@@ -20,6 +20,9 @@
     export default {
       name: "Header",
       methods:{
+        goMain(){
+          this.$router.push("/")
+        },
         goSelectFoods(){
           this.$router.push("/selectFoods")
         },
