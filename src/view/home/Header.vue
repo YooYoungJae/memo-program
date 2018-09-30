@@ -27,6 +27,7 @@
           this.$router.push("/selectFoods")
         },
         goWhoPay(){
+          this.$eventBus.$emit('whoPay');
           this.$router.push("/whoPay")
         },
         goMyInfo(){

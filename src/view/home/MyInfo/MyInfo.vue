@@ -37,7 +37,7 @@
     <div class="mt-4">
       <v-layout fill-height align-center>
         <img src="../../../assets/myinfo-target.png">
-         <h4a class="bold ml-2">목표</h4a>
+         <div class="bold h4a ml-2">목표</div>
       </v-layout>
       <div class="ml-5 mr-5 t-left">
         꾸준한 성장을 위해 항상 새로움을 습득하고자 한다. 배우는 것에 그치지 않고
@@ -48,7 +48,7 @@
       </div>
       <v-layout fill-height align-center mt-3>
         <img src="../../../assets/myinfo-education.png">
-        <h4a class="bold ml-2">학력</h4a>
+        <div class=" h4abold ml-2">학력</div>
       </v-layout>
       <div class="ml-5 mr-5 t-left">
         <span class="color-purple bold">대학 |</span>
@@ -58,10 +58,10 @@
       </div>
       <v-layout fill-height align-center mt-3>
         <img src="../../../assets/myinfo-technic.png">
-        <h4a class="bold ml-2">Technic</h4a>
+        <div class="h4a bold ml-2">Technic</div>
       </v-layout>
       <div class="ml-5 mr-5 mb-2 t-left d-inlineflex">
-        <h4a class="color-purple medium mt-1">언어 |</h4a>
+        <div class="h4a color-purple medium mt-1">언어 |</div>
         <img class="vue-img" src="../../../assets/myinfo-vuejs.png">
         <img class="python-img" src="../../../assets/myinfo-python.png">
         <img class="vue-img" src="../../../assets/myinfo-c.png">
@@ -69,7 +69,7 @@
       <div class="ml-5">현재 4학년 2학기 재학중</div>
       <v-layout fill-height align-center mt-3>
         <img src="../../../assets/myinfo-target.png">
-        <h4a class="bold ml-2">활동</h4a>
+        <div class="h4a bold ml-2">활동</div>
       </v-layout>
       <div class="ml-5 mr-5 t-left activity">
         <div>
@@ -96,7 +96,7 @@
       </div>
       <v-layout fill-height align-center mt-3 mb-2>
         <img src="../../../assets/myinfo-technic.png">
-        <h4a class="bold ml-3">최근 관심 분야</h4a>
+        <div class="h4a bold ml-3">최근 관심 분야</div>
       </v-layout>
       <div class="ml-5 mr-5  t-left d-inlineflex">
         <img class="blockchain-img" src="../../../assets/myinfo-blockchain.png">

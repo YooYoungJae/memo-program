@@ -20,6 +20,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+button:focus { outline: none; }
   .mt-1{
     margin-top: 4px;
   }
@@ -193,10 +195,12 @@ h4{
   font-size: 18px;
   font-weight: 400;
 }
-h4a{
+
+.h4a{
   font-size: 16px;
   font-weight: 400;
 }
+
 h5{
   font-size: 14px;
   font-weight: 400;

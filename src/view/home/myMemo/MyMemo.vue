@@ -1,6 +1,6 @@
 <template>
   <div>
-    My Memo
+    영재의 싸이트 입니당
   </div>
 </template>
 
